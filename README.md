@@ -24,7 +24,7 @@ XXX_OWNER_ID_XXX mywebsite.com [05/Jul/2019:19:46:09 +0000] 94.81.65.11 98237492
 `s3-access-to-csv` would convert the above to the following CSV file:
 
 |owner_id|bucket                       |timestamp|ip_address                                   |requester                     |request_id |request_type                |bucket_key|http_method|http_path                        |http_version|http_status_code|error_code                          |bytes_sent|object_size|total_request_time|turn_around_time|referrer|user_agent   |version_id|host_id                           |signature_version|cipher_suite|authentiation_type|host_header|tls_version|
-|--------|-----------------------------|---------|---------------------------------------------|------------------------------|-----------|----------------------------|----------|-----------|---------------------------------|------------|----------------|------------------------------------|----------|-----------|------------------|----------------|--------|-------------|----------|----------------------------------|---|---|---|---|
+|--------|-----------------------------|---------|---------------------------------------------|------------------------------|-----------|----------------------------|----------|-----------|---------------------------------|------------|----------------|------------------------------------|----------|-----------|------------------|----------------|--------|-------------|----------|----------------------------------|---|---|---|---|---|
 |XXX_OWNER_ID_XXX|mywebsite.com                 |2019-07-05 19:46:09|94.81.65.11                                  |982374924012849831725912hf1233|23479823312|REST.GET.PUBLIC_ACCESS_BLOCK|          |GET        |/mywebsite.com/?publicAccessBlock|HTTP/1.1    |404             |NoSuchPublicAccessBlockConfiguration|342       |           |15                |                |        |S3Console/0.4|          |EOIWjflaejfaeoiwjflaw+3298iqlakfje|SigV4|ECDHE-RSA-AES128-SHA|AuthHeader|s3.amazonaws.com|TLSv1.2|
 
 ## Setup
@@ -32,7 +32,7 @@ XXX_OWNER_ID_XXX mywebsite.com [05/Jul/2019:19:46:09 +0000] 94.81.65.11 98237492
 To setup the project for use run the following commands:
 
 ```
-$ git clone ...
+$ git clone git@github.com:machitect/s3-access-to-csv.git
 
 $ cd s3-access-to-csv
 
