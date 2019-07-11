@@ -1,0 +1,19 @@
+{
+  "name": "s3websiteanalytics",
+  "version": "1.0.0",
+  "description": "Generates analytics reports based on S3 website access logs",
+  "main": "src/index.js",
+  "dependencies": {
+    "aws-sdk": "^2.490.0",
+    "fast-csv": "^3.1.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Machitect <matthew@machitect.io>",
+  "license": "Machitect Public License"
+}
