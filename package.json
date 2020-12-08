@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "aws-sdk": "^2.490.0",
-    "fast-csv": "^3.1.0",
+    "fast-csv": "^4.3.6",
     "moment": "^2.24.0"
   },
   "devDependencies": {
