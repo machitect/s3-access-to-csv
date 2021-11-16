@@ -4,7 +4,7 @@
   "description": "Convert S3 access logs to structured CSV files",
   "main": "src/index.js",
   "dependencies": {
-    "aws-sdk": "^2.490.0",
+    "aws-sdk": "^2.814.0",
     "fast-csv": "^3.1.0",
     "moment": "^2.24.0"
   },
